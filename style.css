@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #d0caca;
+}
+
+header {
+	background-color: #da7bcd;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th, table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+table th {
+	background-color: #eee;
+}
+
+.container form{
+	text-align: center;
+  }
+
+  .form input{
+	padding: 1rem;
+	width: 50%;
+  }
+
+
+  .container .form .btn{
+	margin-top: 2rem;
+	height: 15%;
+	width: 20%;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;	
+	font-size: 1.5rem;
+  }
+
+ 	.container .form .gender input{
+		display: flex;
+		text-align: center;
+		font-size: 100px;
+  }
+
+
+
+
+@media (max-width: 768px) {
+	header {
+		padding: 10px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 10px 0;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	table th, table td {
+		padding: 5px;
+	}	
+	  .form input{
+		width: 100%;
+	  }
+	.container .form .btn{
+		width: 100%;
+		text-align: center;
+		margin-left: 25%;
+		font-size: 1rem;
+	}
+
+	.footer p{
+		font-size: 1rem;
+	}
+}
+
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+	}
+	nav li {
+		margin-bottom: 10px;
+	}
+	table {
+		font-size: 14px;
+	}
+	form label,
+	form input {
+		display: block;
+		margin-bottom: .5px;
+		width: 100%;
+	}
+	.form input{
+		padding: 1rem;
+		width: 100%;
+	}
+	.container .form .btn{
+		width: 50%;
+		text-align: center;
+		margin-left: 25%;
+	}
+
+	.footer p{
+		font-size: .5rem;
+	}
+
+}
+
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.footer p{
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 2rem;
+	text-align: center;
+}
+
+
+/* //slide  */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+  .mySlides img{
+	height: 350px;
+	width: 100%;
+  }
+
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+   
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+
+  /* form  */
+
+
+
+
